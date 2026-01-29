@@ -8,10 +8,9 @@ This project is a machine learning-based system designed to distinguish between 
 - **Accuracy:** Achieved **93.75% accuracy** on the test dataset.
 - **Ready to Use:** Automated generation and classification scripts.
 
----
 
 ## 📂 Project Structure
-```text
+text
 Real-vs-Fake-Audio-Detection/
 ├── data/               # Dataset (Real & Fake .wav files)
 ├── src/
@@ -24,8 +23,10 @@ Real-vs-Fake-Audio-Detection/
 
 1. Clone the repository:
 
-```git clone [https://github.com/username/Real-vs-Fake-Audio-Detection.git](https://github.com/username/Real-vs-Fake-Audio-Detection.git)
-cd Real-vs-Fake-Audio-Detection```
+```
+git clone [https://github.com/username/Real-vs-Fake-Audio-Detection.git](https://github.com/username/Real-vs-Fake-Audio-Detection.git)
+cd Real-vs-Fake-Audio-Detection
+```
 
 2. Install dependencies:
 
@@ -47,4 +48,5 @@ RBF SVM Parameters: C=15.0, Gamma='scale'
 👥 Contributors
 Eda TEKEŞ (eda.t.23@ogr.iu.edu.tr)
 Selen GÜNEL (seleng@ogr.iu.edu.tr)
+
 Zehra ÖZTÜRK (zehraozturk2023@ogr.iu.edu.tr)
