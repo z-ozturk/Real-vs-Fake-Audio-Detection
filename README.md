@@ -10,7 +10,7 @@ This project is a machine learning-based system designed to distinguish between 
 
 
 ## 📂 Project Structure
-text
+```text
 Real-vs-Fake-Audio-Detection/
 ├── data/               # Dataset (Real & Fake .wav files)
 ├── src/
@@ -18,7 +18,7 @@ Real-vs-Fake-Audio-Detection/
 │   └── classifier.py   # Feature extraction and SVM training
 ├── reports/            # Project reports and documentation
 └── requirements.txt    # Python dependencies
-
+```
 🛠️ Installation & Usage
 
 1. Clone the repository:
@@ -50,3 +50,4 @@ Eda TEKEŞ (eda.t.23@ogr.iu.edu.tr)
 Selen GÜNEL (seleng@ogr.iu.edu.tr)
 
 Zehra ÖZTÜRK (zehraozturk2023@ogr.iu.edu.tr)
+
