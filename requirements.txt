@@ -1,8 +1,11 @@
-numpy
-librosa
-matplotlib
-seaborn
-scikit-learn
-torch
-torchaudio
+numpy>=1.23,<2.0
+librosa>=0.10.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+scikit-learn>=1.2.0
+# Install torch and torchaudio separately before running pip install -r requirements.txt
+# See README for CPU vs. CUDA instructions
+torch>=2.0.0
+torchaudio>=2.0.0
+# Required only for generator.py (synthetic voice generation)
 chatterbox-tts

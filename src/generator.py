@@ -3,7 +3,9 @@ import torchaudio as ta
 from chatterbox.mtl_tts import ChatterboxMultilingualTTS
 import torch
 
-# Get the root directory of the project
+# BUG: dirname is called only once, so PROJECT_ROOT resolves to src/, not the project root.
+# INPUT_FOLDER and OUTPUT_FOLDER will therefore point to src/data/real and src/data/fake.
+# Fix: wrap in a second os.path.dirname() call (see README Known Issue section).
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 # Define folder paths relative to the project root
